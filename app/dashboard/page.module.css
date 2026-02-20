@@ -1,0 +1,80 @@
+/* Dashboard styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.menu {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0.5rem 1rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #0070f3;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* header and profile */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileSection {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profileIcon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.profileOptions {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 0.5rem;
+  position: absolute;
+  right: 1rem;
+  top: 3rem;
+}
+
+.profileOptions a {
+  color: #333;
+  text-decoration: none;
+  margin: 0.25rem 0;
+}
+
+.profileOptions a:hover {
+  color: #0070f3;
+}

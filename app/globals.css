@@ -40,3 +40,21 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Minimal global styles for native buttons to match black/white design */
+button,
+input[type="button"],
+input[type="submit"] {
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background: #222222;
+}
